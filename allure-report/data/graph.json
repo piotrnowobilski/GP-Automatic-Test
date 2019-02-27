@@ -1,0 +1,11 @@
+[ {
+  "uid" : "623fbde69b6b8048",
+  "name" : "ShouldBeAbleToPlaceABetOnEnglishPremierLeague",
+  "time" : {
+    "start" : 1551228305856,
+    "stop" : 1551228338041,
+    "duration" : 32185
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

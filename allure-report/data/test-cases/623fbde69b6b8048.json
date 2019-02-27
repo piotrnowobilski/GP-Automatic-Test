@@ -1,0 +1,189 @@
+{
+  "uid" : "623fbde69b6b8048",
+  "name" : "ShouldBeAbleToPlaceABetOnEnglishPremierLeague",
+  "fullName" : "tests.PlaceBet_Test.ShouldBeAbleToPlaceABetOnEnglishPremierLeague",
+  "historyId" : "c6f9f64b04f8714341c541d33a8880ea",
+  "time" : {
+    "start" : 1551228305856,
+    "stop" : 1551228338041,
+    "duration" : 32185
+  },
+  "status" : "passed",
+  "description" : "",
+  "descriptionHtml" : "",
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "openFootballPage",
+      "time" : {
+        "start" : 1551228325044,
+        "stop" : 1551228328597,
+        "duration" : 3553
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "cea789227c76cb70",
+        "name" : "Screenshot",
+        "source" : "cea789227c76cb70.png",
+        "type" : "image/png",
+        "size" : 470904
+      } ],
+      "parameters" : [ ]
+    }, {
+      "name" : "openCompetions",
+      "time" : {
+        "start" : 1551228328600,
+        "stop" : 1551228329841,
+        "duration" : 1241
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "6dea38a80cfba809",
+        "name" : "Screenshot",
+        "source" : "6dea38a80cfba809.png",
+        "type" : "image/png",
+        "size" : 260873
+      } ],
+      "parameters" : [ ]
+    }, {
+      "name" : "openEnglishPremierLeague",
+      "time" : {
+        "start" : 1551228329842,
+        "stop" : 1551228331747,
+        "duration" : 1905
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "dc46d1409a93379f",
+        "name" : "Screenshot",
+        "source" : "dc46d1409a93379f.png",
+        "type" : "image/png",
+        "size" : 466009
+      } ],
+      "parameters" : [ ]
+    }, {
+      "name" : "clickHomeBetButton",
+      "time" : {
+        "start" : 1551228331748,
+        "stop" : 1551228334991,
+        "duration" : 3243
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    }, {
+      "name" : "enterBetValue",
+      "time" : {
+        "start" : 1551228334992,
+        "stop" : 1551228336314,
+        "duration" : 1322
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    }, {
+      "name" : "placeBet",
+      "time" : {
+        "start" : 1551228336315,
+        "stop" : 1551228336389,
+        "duration" : 74
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    }, {
+      "name" : "alertShouldBeShown",
+      "time" : {
+        "start" : 1551228336390,
+        "stop" : 1551228336440,
+        "duration" : 50
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    }, {
+      "name" : "assertBetValue",
+      "time" : {
+        "start" : 1551228336441,
+        "stop" : 1551228336768,
+        "duration" : 327
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    } ],
+    "attachments" : [ {
+      "uid" : "c98720bcc0d5187d",
+      "name" : "Screenshot",
+      "source" : "c98720bcc0d5187d.png",
+      "type" : "image/png",
+      "size" : 220922
+    } ],
+    "hasContent" : true,
+    "attachmentsCount" : 4,
+    "stepsCount" : 8
+  },
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "JUnit"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-83ICR3S"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "thread",
+    "value" : "15312@DESKTOP-83ICR3S.main(1)"
+  }, {
+    "name" : "suite",
+    "value" : "tests.PlaceBet_Test"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.PlaceBet_Test"
+  }, {
+    "name" : "testMethod",
+    "value" : "ShouldBeAbleToPlaceABetOnEnglishPremierLeague"
+  }, {
+    "name" : "package",
+    "value" : "tests.PlaceBet_Test"
+  } ],
+  "parameters" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "categories" : [ ]
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "statistic" : {
+    "failed" : 0,
+    "broken" : 0,
+    "skipped" : 0,
+    "passed" : 1,
+    "unknown" : 0,
+    "total" : 1
+  },
+  "time" : {
+    "minDuration" : 32185,
+    "maxDuration" : 32185,
+    "sumDuration" : 32185,
+    "start" : 1551228305856,
+    "stop" : 1551228338041,
+    "duration" : 32185
+  },
+  "children" : [ {
+    "uid" : "a6e5acdf4aec8bd3",
+    "name" : "Default feature",
+    "time" : {
+      "minDuration" : 32185,
+      "maxDuration" : 32185,
+      "sumDuration" : 32185,
+      "start" : 1551228305856,
+      "stop" : 1551228338041,
+      "duration" : 32185
+    },
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "type" : "TestGroupNode",
+    "children" : [ {
+      "uid" : "49ebb12765005476",
+      "name" : "Default story",
+      "time" : {
+        "minDuration" : 32185,
+        "maxDuration" : 32185,
+        "sumDuration" : 32185,
+        "start" : 1551228305856,
+        "stop" : 1551228338041,
+        "duration" : 32185
+      },
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 1
+      },
+      "type" : "TestGroupNode",
+      "children" : [ {
+        "uid" : "623fbde69b6b8048",
+        "name" : "ShouldBeAbleToPlaceABetOnEnglishPremierLeague",
+        "time" : {
+          "start" : 1551228305856,
+          "stop" : 1551228338041,
+          "duration" : 32185
+        },
+        "status" : "passed",
+        "flaky" : false,
+        "type" : "TestCaseNode"
+      } ]
+    } ]
+  } ]
+}
